@@ -1,0 +1,8 @@
+.masterLayout {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+  background-color: #54cbca;
+  width: 100%;
+  gap: 30px;
+}

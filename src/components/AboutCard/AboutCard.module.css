@@ -1,0 +1,40 @@
+.aboutCard {
+  border: 1px solid #272727bf;
+  padding: 30px;
+  border-radius: 15px;
+  display: flex;
+  justify-content: space-around;
+  gap: 30px;
+  background-color: #fffacd;
+  width: 800px;
+  align-items: center;
+ 
+}
+.aboutMe {
+  color: #272727bf; 
+  position: absolute;
+  top: -20px;
+  left: 20px;
+    background-color: #fff;
+     padding: 10px 35px;
+     border: 1px solid #272727bf;
+     border-radius: 25px;
+     font-weight: 700;
+     box-shadow: 2px 2px 0px 0px #333;
+}
+.aboutCard h3{
+  font-size: 25px;
+  font-weight: 600;
+  }
+  .aboutCard span{
+    font-size: 18px;
+    font-weight: 500;
+    font-style: italic;
+    }
+    .aboutImage {
+      border-radius: 100px;
+    }
+    .headerIcon{
+      display: flex;
+      gap: 10px;
+    }

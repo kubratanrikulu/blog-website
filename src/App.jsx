@@ -1,15 +1,12 @@
-import './App.css'
+//Routes
+import { useRoutes } from "react-router-dom";
+import routesPaths from "./routes/routes";
+import MasterLayout from "./layouts/MasterLayout";
 
-function App() {
-  
 
-  return (
-    <>
-     <h1 className="text-3xl font-bold underline">
-      Hello world!
-    </h1>
-    </>
-  )
-}
+const App = () => {
+  const routing = useRoutes(routesPaths);
+  return <MasterLayout>{routing}</MasterLayout> 
+};
 
-export default App
+export default App;
