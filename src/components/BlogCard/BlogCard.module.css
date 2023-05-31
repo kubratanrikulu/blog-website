@@ -3,11 +3,10 @@
   padding: 30px;
   border-radius: 15px;
   display: flex;
-  justify-content: space-around;
   gap: 30px;
   background-color: #f0f0ff;
-  width: 800px;
   align-items: center;
+  width: 800px;
 }
 .blogCard h1{
 font-size: 28px;
@@ -56,4 +55,16 @@ box-shadow: none;
   display: flex;
   flex-direction: column;
   gap: 30px;
+}
+.blogDescription {
+  overflow: hidden;
+   display: -webkit-box;
+   -webkit-line-clamp: 2;
+           line-clamp: 2; 
+   -webkit-box-orient: vertical;
+}
+
+.blogDescription figure,
+.blogDescription image {
+  display: none;
 }
