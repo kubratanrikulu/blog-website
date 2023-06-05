@@ -78,3 +78,13 @@
 .blogDescription image {
   display: none;
 }
+@media (max-width: 768px) {
+  .blogCard {
+    display: block;
+    width: 300px;
+    overflow: hidden;
+  }
+  .blogTime {
+    display: none;
+  }
+}

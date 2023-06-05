@@ -1,0 +1,9 @@
+.blog {
+  display: flex;
+  justify-content: center;
+}
+.blogCards {
+  display: flex;
+  flex-direction: column;
+  gap: 70px;
+}

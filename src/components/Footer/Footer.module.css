@@ -7,7 +7,6 @@
 
 .footerSection {
   padding: 30px;
-  justify-content: space-around;
   align-items: center;
 }
 .blogTag {
@@ -23,7 +22,7 @@
   color: #272727bf;
   position: absolute;
   top: -20px;
-  left: 30px;
+  left: 40px;
   background-color: #fff;
   padding: 10px 35px;
   border: 1px solid #272727bf;
@@ -105,10 +104,7 @@ font-size: 12px;
   justify-content: center;
   background: url(https://themes.estudiopatagon.com/wordpress/groovy/wp-content/themes/groovy/assets/images/number-decoration.svg) no-repeat center center;
 }
-.recentPost {
- display: flex;
- justify-content: start;
-}
+
 .tag {
   display: flex;
   justify-content: start;
@@ -122,4 +118,20 @@ font-size: 12px;
 .footerSection {
   margin-top: 20px;
   display: flex;
+}
+@media (max-width: 768px) {
+  .footer {
+    display: block;
+    overflow: hidden;
+    padding: 30px;
+  }
+   .tag {
+    display: flex;
+    justify-content: center;
+  }
+  .footerHeader {
+   display: flex;
+   justify-content: center;
+  }
+  
 }

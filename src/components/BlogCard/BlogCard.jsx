@@ -19,7 +19,7 @@ const BlogCard = ({article}) => {
        <div className={styles.blogHeader}>
         <div className={styles.blogTag}><i className="fa-solid fa-circle" style={{color: getRandomColor(), fontSize: "12px"}}></i><span>{article.categories[0]}</span></div>
         <div><span>{article.pubDate}</span></div>
-        <div><span>1 min read</span></div>
+        <div><span className={styles.blogTime}>1 min read</span></div>
        </div>
        <div className={styles.blogContent} >
         <h1>{article.title}</h1>
